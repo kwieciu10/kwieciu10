@@ -1,0 +1,42 @@
+body 
+{
+background-color: dark ;
+
+}
+p {
+    color: aqua;
+    font-size: 20pt;
+    font-weight: bold;
+}
+img
+{
+    content: url("piłka.webp");
+    width: 300px;
+    height: 300px;
+    border: 10px;
+    float: right;
+    margin-left: 20px; /* odstęp od treści po lewej stronie */
+    width: 200px; /* szerokość zdjęcia*/
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagine-container {
+    width : 300px ; /* szerokość kontenera */
+    height: 200px; /* wysokość kontenera */ 
+    background-image: url('piłka.webp'); /*piłka.webp*/
+    background-size: cover; /*skaluje obraz, aby wypełnić kontener */
+    background-position: center; /* wyśrodkuj obraz */
+    background-repeat: no-repeat; /* zapobiega powtarzaniu obrazka */
+}
+
+
+   img {
+    float: right;
+    margin-left: 20px; /* odstęp od treści po lewej stronie */
+    width: 200px; /* szerokość zdjęcia*/
+  }
+
